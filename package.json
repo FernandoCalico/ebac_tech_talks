@@ -1,7 +1,8 @@
 {
-  "name": "ebac_talks",
+  "name": "ebac_tech_talks",
   "version": "1.0.0",
   "description": "",
+  "main": "aos.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "build": "parcel src/index.html",
