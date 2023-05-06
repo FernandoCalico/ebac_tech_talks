@@ -1,23 +1,23 @@
 @use '../variables';
 
-.infos-bar{
+.infos-bar {
     padding: 16px 24px;
     background-color: variables.$textColor;
     display: flex;
     justify-content: space-between;
 
-    &__infos{
+    &__infos {
         display: flex;
         gap: 40px;
 
-        &__item{
+        &__item {
             font-size: 14px;
             color: variables.$secondaryTextColor;
 
-            b{
+            b {
+                color: variables.$secondaryTextColor;
                 font-size: 18px;
                 display: block;
-                color: variables.$secondaryTextColor;
             }
         }
     }
@@ -25,19 +25,18 @@
     @media (max-width: 640px) {
         display: block;
 
-        &__infos{
+        &__infos {
             display: block;
 
-            &__item{
+            &__item {
                 margin-bottom: 24px;
             }
         }
     }
 
     @media (max-width: 1024px) {
-        &__infos{
+        &__infos {
             gap: 16px;
         }
     }
-
 }
